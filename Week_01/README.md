@@ -2,14 +2,14 @@
 
 ### 简单
 
- [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) *已完成*   
+ [删除排序数组中的重复项](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_26.cpp/) *已完成*   
  旋转数组  
  合并两个有序链表  
- [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) *已完成*   
- [两数之和](https://leetcode-cn.com/problems/two-sum/) *已完成*   
- [移动零](https://leetcode-cn.com/problems/move-zeroes/) *已完成*   
- [加一](https://leetcode-cn.com/problems/plus-one/)  *已完成*   
- 有效的字母异位词  
+ [合并两个有序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_88.py) *已完成*   
+ [两数之和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_1.cpp) *已完成*   
+ [移动零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_283.cpp) *已完成*   
+ [加一](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_66.cpp)  *已完成*   
+ 有效的字母异位词   *已完成*
 
 ### 中等 
 
