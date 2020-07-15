@@ -58,19 +58,19 @@ queue、priority_queue均位于<stl_queue.h>中，基于某种容器作为底部
 
 **top** 返回队列的第一个元素的只读（常量）引用
 
-`return c.front();`
+`return c.front();`   
 
 **push** 添加给定的元素 value 到 priority_queue 中：
 
-`c.push_back(std::move(__x));`
+`c.push_back(std::move(__x));`   
 `std::push_heap(c.begin(), c.end(), comp);`
 
 **emplace** 向优先队列添加新元素。该元素是就地构造的，传递参数作为其构造函数的参数
 
 **pop** 移除堆顶元素
 
-`__glibcxx_requires_nonempty();`
-`std::pop_heap(c.begin(), c.end(), comp);`
+`__glibcxx_requires_nonempty();`   
+`std::pop_heap(c.begin(), c.end(), comp);`   
 `c.pop_back();`
 
 **swap** 交换两个优先队列的内容
