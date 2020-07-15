@@ -52,7 +52,7 @@ queue、priority_queue均位于<stl_queue.h>中
 
 缺省情况下是以**vector**为底层容器，再加上**heap**处理规则实现，按照权值高低自动排序
 
-[**empty**](http://www.cplusplus.com/reference/queue/priority_queue/) 检查底层容器是否为空
+[**empty**](http://www.cplusplus.com/reference/queue/priority_queue/empty/) 检查底层容器是否为空
 
 [**size**](http://www.cplusplus.com/reference/queue/priority_queue/size/) 返回底层容器中的元素数
 
