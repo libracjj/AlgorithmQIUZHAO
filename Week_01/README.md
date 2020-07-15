@@ -3,18 +3,18 @@
 ### 简单
 
  [删除排序数组中的重复项](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_26.cpp/) *已完成*   
- 旋转数组  
+ [旋转数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_189.cpp)  *已完成*  
  合并两个有序链表  
  [合并两个有序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_88.py) *已完成*   
  [两数之和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_1.cpp) *已完成*   
  [移动零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_283.cpp) *已完成*   
  [加一](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_66.cpp)  *已完成*   
- [有效的字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_242.cpp)   *已完成*
+ [有效的字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_242.cpp)   *已完成*      
 
 ### 中等 
 
  设计循环双端队列   
- 字母异位词分组    
+ 字母异位词分组       
 
 ### 困难
 
@@ -24,7 +24,7 @@
 
 ## C++ queue源码   
 
-queue、priority_queue均位于<stl_queue.h>中，基于某种容器作为底部结构的，默认容器是deque容器。  
+queue、priority_queue均位于<stl_queue.h>中，基于某种容器作为底部结构的，默认容器是**deque**容器。  
 
 `protected:`    
 
@@ -50,7 +50,7 @@ queue、priority_queue均位于<stl_queue.h>中，基于某种容器作为底部
 
 ## C++ priority_queue源码
 
-缺省情况下是以vector为底部容器，再加上heap处理规则实现，按照权值高低自动排序
+缺省情况下是以**vector**为底层容器，再加上**heap**处理规则实现，按照权值高低自动排序
 
 **empty** 检查底层容器是否为空
 
