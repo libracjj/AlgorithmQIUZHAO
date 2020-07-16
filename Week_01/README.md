@@ -26,9 +26,11 @@
 
 queue、priority_queue均位于<stl_queue.h>中
 
-`protected:`    
+```c++
+protected:
 
-`_Sequence c;//底层容器，默认为deque容器，用户可自行指定容器类型`     
+_Sequence c;//底层容器，默认为deque容器，用户可自行指定容器类型 
+```
 
 关键是"queue"的操作：
 
@@ -58,21 +60,33 @@ queue、priority_queue均位于<stl_queue.h>中
 
 [**top**](http://www.cplusplus.com/reference/queue/priority_queue/top/) 返回队列的第一个元素的只读（常量）引用
 
-`return c.front();`   
+```c++
+return c.front();
+```
 
 [**push**](http://www.cplusplus.com/reference/queue/priority_queue/push/) 添加给定的元素 value 到 priority_queue 中：
 
-`c.push_back(std::move(__x));`   
-`std::push_heap(c.begin(), c.end(), comp);`
+```c++
+c.push_back(std::move(__x));   
+std::push_heap(c.begin(), c.end(), comp);
+```
 
 [**emplace**](http://www.cplusplus.com/reference/queue/priority_queue/emplace/) 向优先队列添加新元素。该元素是就地构造的，传递参数作为其构造函数的参数
 
+```c++
+c.emplace_back(std::forward<_Args>(__args)...);
+std::push_heap(c.begin(), c.end(), comp);
+```
+
 [**pop**](http://www.cplusplus.com/reference/queue/priority_queue/pop/) 移除堆顶元素
 
-`__glibcxx_requires_nonempty();`   
-`std::pop_heap(c.begin(), c.end(), comp);`   
-`c.pop_back();`
+```c++
+__glibcxx_requires_nonempty(); 
+std::pop_heap(c.begin(), c.end(), comp);  
+c.pop_back();
+```
 
 [**swap**](http://www.cplusplus.com/reference/queue/priority_queue/swap/) 交换两个优先队列的内容
 
 [优先队列参考](https://blog.csdn.net/qq_38289815/article/details/106748014)
+
