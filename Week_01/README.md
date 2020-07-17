@@ -4,7 +4,7 @@
 
  [删除排序数组中的重复项](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_26.cpp/) *已完成*   
  [旋转数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_189.cpp)  *已完成*  
- 合并两个有序链表  
+ 合并两个有序链表  *已完成*  
  [合并两个有序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_88.py) *已完成*   
  [两数之和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_1.cpp) *已完成*   
  [移动零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_283.cpp) *已完成*   
@@ -13,7 +13,7 @@
 
 ### 中等 
 
- 设计循环双端队列   
+ 设计循环双端队列   *已完成*   
  字母异位词分组       
 
 ### 困难
@@ -24,7 +24,7 @@
 
 ## C++ queue源码   
 
-queue、priority_queue均位于<stl_queue.h>中
+queue、priority_queue均位于**<stl_queue.h>**中
 
 ```c++
 protected:
@@ -53,6 +53,8 @@ _Sequence c;//底层容器，默认为deque容器，用户可自行指定容器�
 ## C++ priority_queue源码
 
 缺省情况下是以**vector**为底层容器，再加上**heap**处理规则实现，按照权值高低自动排序
+
+
 
 [**empty**](http://www.cplusplus.com/reference/queue/priority_queue/empty/) 检查底层容器是否为空
 
