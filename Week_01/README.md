@@ -4,7 +4,7 @@
 
  [删除排序数组中的重复项](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_26.cpp/) *已完成*   
  [旋转数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_189.cpp)  *已完成*  
- 合并两个有序链表  *已完成*  
+ [合并两个有序链表](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_21.cpp)  *已完成*  
  [合并两个有序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_88.py) *已完成*   
  [两数之和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_1.cpp) *已完成*   
  [移动零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_283.cpp) *已完成*   
@@ -13,7 +13,7 @@
 
 ### 中等 
 
- 设计循环双端队列   *已完成*   
+ [设计循环双端队列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_641.py)   *已完成*   
  字母异位词分组       
 
 ### 困难
@@ -91,4 +91,6 @@ c.pop_back();
 [**swap**](http://www.cplusplus.com/reference/queue/priority_queue/swap/) 交换两个优先队列的内容
 
 [优先队列参考](https://blog.csdn.net/qq_38289815/article/details/106748014)
+
+## C++ map与hash_map
 
