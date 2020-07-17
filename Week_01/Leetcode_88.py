@@ -18,6 +18,6 @@ class Solution(object):
             else:
                 nums1[i + j + 1] = nums2[j]
                 j -= 1
-		## add missing elements from nums2
+	#add missing elements from nums2
         if(j >= 0):
             nums1[:j + 1] = nums2[:j + 1]
