@@ -1,24 +1,24 @@
 ## 第 一 周  
 
-### 简单
+### 简 单
 
- [删除排序数组中的重复项](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_26.cpp/) *已完成*   
- [旋转数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_189.cpp)  *已完成*  
- [合并两个有序链表](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_21.cpp)  *已完成*  
- [合并两个有序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_88.py) *已完成*   
- [两数之和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_1.cpp) *已完成*   
- [移动零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_283.cpp) *已完成*   
- [加一](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_66.cpp)  *已完成*   
- [有效的字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_242.cpp)   *已完成*      
+ [删除排序数组中的重复项](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_26.cpp/) 		*已完成*   
+ [旋转数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_189.cpp)		*已完成*  
+ [合并两个有序链表](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_21.cpp)		*已完成*  
+ [合并两个有序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_88.py)		*已完成*   
+ [两数之和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_1.cpp)		*已完成*   
+ [移动零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_283.cpp)		*已完成*   
+ [加一](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_66.cpp)		*已完成*   
+ [有效的字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_242.cpp)		*已完成*      
 
-### 中等 
+### 中 等 
 
- [设计循环双端队列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_641.py)   *已完成*   
- 字母异位词分组       
+ [设计循环双端队列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_641.py)		*已完成*   
+ 字母异位词分组		*已完成*
 
-### 困难
+### 困 难
 
- 接雨水       
+ 接雨水		*已完成*
 
 # 学习总结
 
@@ -33,6 +33,8 @@ _Sequence c;//底层容器，默认为deque容器，用户可自行指定容器�
 ```
 
 关键是"queue"的操作：
+
+
 
 [**empty**](http://www.cplusplus.com/reference/queue/queue/empty/) 判断容器是否为空：函数类型为bool，返回 c.**empty**()  
 
@@ -92,5 +94,6 @@ c.pop_back();
 
 [优先队列参考](https://blog.csdn.net/qq_38289815/article/details/106748014)
 
-## C++ map与hash_map
+## C++ map与unordered_map
 
+map对应的数据结构是**红黑树**，查询时间复杂度为**O(logN)**。而unordered_map对应**哈希表**，查询效率高，时间复杂度为**O(1)**，但额外空间复杂度高出许多。
