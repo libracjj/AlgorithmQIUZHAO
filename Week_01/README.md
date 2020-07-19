@@ -14,11 +14,11 @@
 ### 中 等 
 
  [设计循环双端队列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_641.py)		*已完成*   
- 字母异位词分组		*已完成*
+ [字母异位词分组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_49.py)		*已完成*
 
 ### 困 难
 
- 接雨水		*已完成*
+ [接雨水](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_01/Leetcode_42.cpp)		*已完成*
 
 # 学习总结
 
