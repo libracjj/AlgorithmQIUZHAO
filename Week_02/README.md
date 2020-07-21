@@ -1,14 +1,14 @@
 ## 简 单
 
-[N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)		*已完成*
+[N 叉树的后序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_590.cpp)		*已完成*
 
-[N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/)		*已完成*
+[N 叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_589.cpp)		*已完成*
 
 ## 中 等
 
-[二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)		*已完成*
+[二叉树的中序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_94.cpp)		*已完成*
 
-[二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)		*已完成*
+[二叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_144.cpp)		*已完成*
 
 [N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)		
 
