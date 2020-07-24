@@ -14,17 +14,17 @@
 
 [丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)          *已完成*		
 
-[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)		
+[前 K 个高频元素](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_347.cpp)          *已完成*		
 
-[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)		
+[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)          			
 
-[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)		
+[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)          			
 
-[组合](https://leetcode-cn.com/problems/combinations/)		
+[组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_77.cpp)          *已完成*			
 
-[全排列](https://leetcode-cn.com/problems/permutations/)		
+[全排列](https://leetcode-cn.com/problems/permutations/)          *已完成*		
 
-[全排列 II ](https://leetcode-cn.com/problems/permutations-ii/)		
+[全排列 II ](https://leetcode-cn.com/problems/permutations-ii/)          *已完成*		
 
 # 学习总结
 
