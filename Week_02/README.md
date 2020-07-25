@@ -93,7 +93,7 @@ int cmp(const int i, const int j) {return w[i] < w[j];}
 int find(int x) {return p[x] == x ? x : p[x] = find(p[x]);}
 int kruskal()
 {
-    int cnt = 0,x,y,i,ans = 0;
+    int cnt = 0, x, y, i, ans = 0;
     for (i = 0; i < n; i++) p[i] = i;//并查集初始化
     for (i = 0; i < m; i++) r[i] = i;//边编号
     sort (r, r + m , cmp);
