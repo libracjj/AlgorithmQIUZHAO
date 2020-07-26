@@ -1,30 +1,30 @@
 ## 简 单
 
-[N 叉树的后序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_590.cpp)          *已完成*
+[590: N 叉树的后序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_590.cpp)          *已完成*
 
-[N 叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_589.cpp)          *已完成*
+[589: N 叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_589.cpp)          *已完成*
 
 ## 中 等
 
-[二叉树的中序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_94.cpp)          *已完成*
+[94: 二叉树的中序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_94.cpp)          *已完成*
 
-[二叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_144.cpp)          *已完成*
+[144: 二叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_144.cpp)          *已完成*
 
-[N 叉树的层序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_429.cpp)          *已完成*		  
+[429: N 叉树的层序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_429.cpp)          *已完成*		  
 
-[丑数]()          *已完成*		
+[264: 丑数](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_264.cpp)          *已完成*		
 
-[前 K 个高频元素](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_347.cpp)          *已完成*		
+[347: 前 K 个高频元素](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_347.cpp)          *已完成*		
 
-[二叉树的最近公共祖先](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_236.cpp)          *已完成*          			
+[236: 二叉树的最近公共祖先](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_236.cpp)          *已完成*          			
 
-[从前序与中序遍历序列构造二叉树]()          *已完成*  
+[105: 从前序与中序遍历序列构造二叉树](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_105.cpp)          *已完成*  
 
-[组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_77.cpp)          *已完成*			
+[77: 组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_77.cpp)          *已完成*			
 
-[全排列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_46.cpp)          *已完成*		
+[46: 全排列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_46.cpp)          *已完成*		
 
-[全排列 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_47.cpp)          *已完成*		
+[47: 全排列 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_47.cpp)          *已完成*		
 
 # 学习总结
 
