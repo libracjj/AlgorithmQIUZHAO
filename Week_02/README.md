@@ -67,7 +67,7 @@ while (i > 0 && insertval > heap[parent[i]]) {
 
 ### Dijkstra
 
-[hdu2544](http://acm.hdu.edu.cn/showproblem.php?pid=2544)
+[HDU 2544](http://acm.hdu.edu.cn/showproblem.php?pid=2544)
 
 ```c++
 memset(v, 0, sizeof(v));
@@ -75,8 +75,8 @@ for (int i = 0; i < n; i++) d[i] = (i == 0 ? 0 : INF);
 for (int i = 0; i < n; i++) {
     int x, m = INF;
     //选出d值最小的节点 x
-    for (int y = 0; y < n; y++) if(!v[y] && d[y] <= m){m = d[y]; x = y}
-    v[x] = 1;//给节点标记
+    for (int y = 0; y < n; y++) if(!v[y] && d[y] <= m){m = d[y]; x = y;}
+    v[x] = 1;//给节点x标记
     //从x出发的所有边(x,y)，更新d[y]
     for (int y = 0; y < n; y++) d[y] = min(d[y], d[x] + w[x][y]);
 }
