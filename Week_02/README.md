@@ -10,15 +10,15 @@
 
 [二叉树的前序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_144.cpp)          *已完成*
 
-[N 叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)          *已完成*		  
+[N 叉树的层序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_429.cpp)          *已完成*		  
 
-[丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)          *已完成*		
+[丑数]()          *已完成*		
 
 [前 K 个高频元素](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_347.cpp)          *已完成*		
 
-[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)          *已完成*          			
+[二叉树的最近公共祖先](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_236.cpp)          *已完成*          			
 
-[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)          			
+[从前序与中序遍历序列构造二叉树]()          *已完成*  
 
 [组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_77.cpp)          *已完成*			
 
@@ -50,6 +50,20 @@ while (i > 0 && insertval > heap[parent[i]]) {
 **删除**（最大值）
 
 从上向下操作：首先堆尾替换顶部，不断比较左右儿子节点哪一个更大，若值更大的儿子节点大于该值，这个儿子节点向上**放**，直至找到堆尾元素的节点的位置（此时比左右儿子节点的值都要大）。
+
+## 拓扑排序
+
+有向无环图的所有顶点的线性序列
+
+### 贪心
+
+1、从 DAG 图中选择一个 没有前驱（即**入度**为**0**）的顶点并输出。
+2、从图中删除该顶点和所有以它为起点的有向边。
+3、重复 1 和 2 直到当前的 DAG 图为空或**当前图中不存在无前驱的顶点为止**。后一种情况说明有向图中必然存在环。
+
+## [最短路径](http://www.bilibili.com/video/av25829980)
+
+
 
 ## 最小生成树
 
