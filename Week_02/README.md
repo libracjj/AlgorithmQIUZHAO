@@ -1,3 +1,5 @@
+点击 链接 直接跳 我的解答 ^_^
+
 ## 简 单
 
 [590: N 叉树的后序遍历](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_02/Leetcode_590.cpp)          *已完成*
@@ -62,6 +64,23 @@ while (i > 0 && insertval > heap[parent[i]]) {
 3、重复 1 和 2 直到当前的 DAG 图为空或**当前图中不存在无前驱的顶点为止**。后一种情况说明有向图中必然存在环。
 
 ## [最短路径](http://www.bilibili.com/video/av25829980)
+
+### Dijkstra
+
+[hdu2544](http://acm.hdu.edu.cn/showproblem.php?pid=2544)
+
+```c++
+memset(v, 0, sizeof(v));
+for (int i = 0; i < n; i++) d[i] = (i == 0 ? 0 : INF);
+for (int i = 0; i < n; i++) {
+    int x, m = INF;
+    //选出d值最小的节点 x
+    for (int y = 0; y < n; y++) if(!v[y] && d[y] <= m){m = d[y]; x = y}
+    v[x] = 1;//给节点标记
+    //从x出发的所有边(x,y)，更新d[y]
+    for (int y = 0; y < n; y++) d[y] = min(d[y], d[x] + w[x][y]);
+}
+```
 
 
 
