@@ -122,7 +122,7 @@ int prim(int n)
 ### Kruskal
 
 ```c++
-int cmp(const int i, const int j) {return w[i] < w[j];}
+int cmp(const int i, const int j) {return w[i] < w[j];}//间接排序函数
 int find(int x) {return p[x] == x ? x : p[x] = find(p[x]);}
 int kruskal()
 {
@@ -132,8 +132,8 @@ int kruskal()
     sort (r, r + m , cmp);
     for (i = 0; i < m; i++){
         //取出未加入的边权最小的边的编号 
-        int e = r[i]; x = find(u[e]); y = find(v[e]);
-        if(x != y) {ans += w[e]; p[x] = y; cnt++; }
+        int e = r[i]; x = find(u[e]); y = find(v[e]);//找出当前边 两个端点所在集合编号
+        if(x != y) {ans += w[e]; p[x] = y; cnt++; }//如果在不同集合，合并
     }
     if(cnt < n - 1) ans = 0;//找不到最小生成树 
     return ans;
