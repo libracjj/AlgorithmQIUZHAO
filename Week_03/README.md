@@ -34,7 +34,7 @@
 
 # 困 难
 
-[51：N 皇后](https://leetcode-cn.com/problems/n-queens/)
+[51：N 皇后](https://leetcode-cn.com/problems/n-queens/) 			  *已完成*  
 
 [单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
 
@@ -48,5 +48,19 @@ Leetcode 17题 电话号码的字母组合：在递归时，当字符串长度�
 
 Leetcode 50题 x的n次幂：注意n首先要转化为long long型（**C++**），再套用快速幂模板！python中不存在此问题      
 
+分治法的思路是：有一个递归终止条件，把问题分解成多个子问题，子问题有解后合并起来得到最终的问题的答案
 
+比如x的n次幂可用分治法：
+
+```python
+def fastpow(a, n):
+    if n == 0:
+        return 1.0
+    elif n < 0:
+        return fastpow(a, -n)
+    elif n % 2:
+        return fastpow(a * a, n // 2) * a
+    else:
+        return fastpow(a * a, n // 2)
+```
 
