@@ -1,6 +1,6 @@
 # 简 单
 
-[169：多数元素](https://leetcode-cn.com/problems/majority-element/description/) 			  *已完成*  			  
+[169：多数元素](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_169.cpp) 			  *已完成*  			  
 
 [860：柠檬水找零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_860.cpp) 			  *已完成*  			  
 
@@ -12,15 +12,15 @@
 
 # 中 等
 
-[50：Pow(x, n) ](https://leetcode-cn.com/problems/powx-n/)			  *已完成* 
+[50：Pow(x, n) ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_50.cpp)			  *已完成* 
 
-[78：子集](https://leetcode-cn.com/problems/subsets/)			  *已完成* 
+[78：子集](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_78.cpp)			  *已完成* 
 
 [17：电话号码的字母组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_17.cpp) 			  *已完成*  			  
 
 [单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)
 
-[岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+[200：岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)			  *已完成*  			  
 
 [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/)
 
@@ -30,11 +30,11 @@
 
 [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
-[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+[153：寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)			  *已完成*
 
 # 困 难
 
-[51：N 皇后](https://leetcode-cn.com/problems/n-queens/) 			  *已完成*  
+[51：N 皇后](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_51.cpp) 			  *已完成*  
 
 [单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
 

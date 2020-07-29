@@ -1,6 +1,8 @@
 /*
 https://leetcode-cn.com/problems/n-queens/
 51. N皇后
+参考：https://leetcode.com/problems/n-queens/discuss/19808/Accepted-4ms-c%2B%2B-solution-use-backtracking-and-bitmask-easy-understand.
+Python: https://leetcode.com/problems/n-queens/discuss/19810/Fast-short-and-easy-to-understand-python-solution-11-lines-76ms
 */
 
 class Solution {
