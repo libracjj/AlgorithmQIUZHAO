@@ -4,7 +4,7 @@
 
 [860：柠檬水找零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_860.cpp) 			  *已完成*  			  
 
-[买卖股票的最佳时机 II ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+[122：买卖股票的最佳时机 II ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 			  *已完成*  			  
 
 [455：分发饼干](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_455.cpp) 			  *已完成*  			  
 
@@ -18,9 +18,9 @@
 
 [17：电话号码的字母组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_17.cpp) 			  *已完成*  			  
 
-[单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)
+[127：单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)			  暂时超时  			  
 
-[200：岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)			  *已完成*  			  
+[200：岛屿数量](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_200.cpp)			  *已完成*  			  
 
 [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/)
 
@@ -30,7 +30,7 @@
 
 [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
-[153：寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)			  *已完成*
+[153：寻找旋转排序数组中的最小值](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_153.cpp)			  *已完成*
 
 # 困 难
 
@@ -64,3 +64,8 @@ def fastpow(a, n):
         return fastpow(a * a, n // 2)
 ```
 
+**二分查找：**
+
+（基本二分）如果right = nums.size() - 1，搜索区间为[left, right]，决定了 while (left <= right)，也决定了left = **mid + 1**和	right = **mid - 1**
+
+（寻找左侧边界）若right = nums.size()，搜索区间为[left, right)，决定了 while (left < right)，也决定了left = **mid + 1**和			 right = **mid**。
