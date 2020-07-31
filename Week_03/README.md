@@ -4,7 +4,7 @@
 
 [860：柠檬水找零](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_860.cpp) 			  *已完成*  			  
 
-[122：买卖股票的最佳时机 II ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) 			  *已完成*  			  
+[122：买卖股票的最佳时机 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_122.cpp) 			  *已完成*  			  
 
 [455：分发饼干](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_455.cpp) 			  *已完成*  			  
 
@@ -18,19 +18,19 @@
 
 [17：电话号码的字母组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_17.cpp) 			  *已完成*  			  
 
-[127：单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)			  暂时超时  			  
+[127：单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)			  *已完成*  			  			  
 
 [200：岛屿数量](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_200.cpp)			  *已完成*  			  
 
 [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/)
 
-[跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+[55：跳跃游戏](https://leetcode-cn.com/problems/jump-game/)			  *已完成*  			  
 
-[33：搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+[33：搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)			  *已完成*  			  
 
 [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
-[153：寻找旋转排序数组中的最小值](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_153.cpp)			  *已完成*
+[153：寻找旋转排序数组中的最小值](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_153.cpp)			  *已完成*  			  
 
 # 困 难
 
@@ -38,7 +38,7 @@
 
 [单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
 
-[跳跃游戏 II ](https://leetcode-cn.com/problems/jump-game-ii/)
+[45：跳跃游戏 II ](https://leetcode-cn.com/problems/jump-game-ii/)			  *已完成*  			  
 
 
 
