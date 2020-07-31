@@ -18,7 +18,7 @@
 
 [17：电话号码的字母组合](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_17.cpp) 			  *已完成*  			  
 
-[127：单词接龙](https://leetcode-cn.com/problems/word-ladder/description/)			  *已完成*  			  			  
+[127：单词接龙](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/leetcode_127.py)			  *已完成*  			  			  
 
 [200：岛屿数量](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_200.cpp)			  *已完成*  			  
 
@@ -26,7 +26,7 @@
 
 [55：跳跃游戏](https://leetcode-cn.com/problems/jump-game/)			  *已完成*  			  
 
-[33：搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)			  *已完成*  			  
+[33：搜索旋转排序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_33.cpp)			  *已完成*  			  
 
 [搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
@@ -38,7 +38,7 @@
 
 [单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
 
-[45：跳跃游戏 II ](https://leetcode-cn.com/problems/jump-game-ii/)			  *已完成*  			  
+[45：跳跃游戏 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_45.cpp)			  *已完成*  			  
 
 
 

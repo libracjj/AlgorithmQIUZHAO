@@ -1,6 +1,9 @@
 /*
 https://leetcode-cn.com/problems/jump-game-ii/
 45. 跳跃游戏 II
+在遍历数组时，我们不访问最后一个元素，
+这是因为在访问最后一个元素之前，我们的边界一定大于等于最后一个位置，
+否则就无法跳到最后一个位置了。
 */
 class Solution {
 public:
