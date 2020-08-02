@@ -22,13 +22,13 @@
 
 [200：岛屿数量](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_200.cpp)			  *已完成*  			  
 
-[529：扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/)
+[529：扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/)			  *已完成*  			  
 
-[55：跳跃游戏](https://leetcode-cn.com/problems/jump-game/)			  *已完成*  			  
+[55：跳跃游戏](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_55.cpp)			  *已完成*  			  
 
 [33：搜索旋转排序数组](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_33.cpp)			  *已完成*  			  
 
-[74：搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)			  *已完成*  			  
+[74：搜索二维矩阵](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_74.cpp)			  *已完成*  			  
 
 [153：寻找旋转排序数组中的最小值](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_153.cpp)			  *已完成*  			  
 
@@ -36,7 +36,7 @@
 
 [51：N 皇后](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_51.cpp) 			  *已完成*  
 
-[单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
+[126：单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
 
 [45：跳跃游戏 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_45.cpp)			  *已完成*  			  
 
@@ -64,8 +64,23 @@ def fastpow(a, n):
         return fastpow(a * a, n // 2)
 ```
 
-**二分查找：**
 
-（基本二分）如果right = nums.size() - 1，搜索区间为[left, right]，决定了 while (left <= right)，也决定了left = **mid + 1**和	right = **mid - 1** （推荐此法）
 
-（寻找左侧边界）若right = nums.size()，搜索区间为[left, right)，决定了 while (left < right)，也决定了left = **mid + 1**和			 right = **mid**。
+**二分查找**
+
+（基本二分）如果right = nums.size() - 1，搜索区间为[left, right]，决定了 while (left <= right)，也决定了		left = **mid + 1**和 right = **mid - 1** （推荐此法）   
+
+（寻找左侧边界）若right = nums.size()，搜索区间为[left, right)，决定了 while (left < right)，也决定了			left = **mid + 1**和  right = **mid**。    
+
+
+
+**深度优先和广度优先搜索**（非递归版）
+
+C++：
+
+深度：使用栈（1重循环），访问栈顶记为cur（stk.top()），取出栈顶（stk.pop()）。判断当前值是否访问过，如果**访问**过则continue，否则打上标记。获取cur的孩子个数  （n：cur->children.size()），从最后一个孩子开始到0，依次入栈。     
+
+广度：使用队列（2重循环），首先获取**队列的长度**（q.size()），从0到队列长度循环，首先获取队头记为temp（q.front()），再弹出队头（q.pop()）。判断当前值是否**访问**过，如果访问过则continue，否则打上标记。再一个循环，依次将temp的孩子们入队。     
+
+
+
