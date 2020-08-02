@@ -22,7 +22,7 @@
 
 [200：岛屿数量](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_200.cpp)			  *已完成*  			  
 
-[529：扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/)			  *已完成*  			  
+[529：扫雷游戏](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_529.cpp)			  *已完成*  			  
 
 [55：跳跃游戏](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_55.cpp)			  *已完成*  			  
 
@@ -34,9 +34,9 @@
 
 # 困 难
 
-[51：N 皇后](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_51.cpp) 			  *已完成*  
+[51：N 皇后](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_51.cpp) 			  *已完成*  			  
 
-[126：单词接龙 II ](https://leetcode-cn.com/problems/word-ladder-ii/description/)
+[126：单词接龙 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_126.py)			  *已完成*  			  
 
 [45：跳跃游戏 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_03/Leetcode_45.cpp)			  *已完成*  			  
 
@@ -74,13 +74,20 @@ def fastpow(a, n):
 
 
 
-**深度优先和广度优先搜索**（非递归版）
+**深度优先和广度优先搜索**（非递归版）  
 
-C++：
+C++：   
 
-深度：使用栈（1重循环），访问栈顶记为cur（stk.top()），取出栈顶（stk.pop()）。判断当前值是否访问过，如果**访问**过则continue，否则打上标记。获取cur的孩子个数  （n：cur->children.size()），从最后一个孩子开始到0，依次入栈。     
+**深度**：使用栈（1重循环），访问栈顶记为cur（stk.top()），取出栈顶（stk.pop()）。判断当前值是否访问过，如果**访问**过则continue，否则打上标记。获取cur的孩子个数  （n：cur->children.size()），从最后一个孩子开始到0，依次入栈。     
 
-广度：使用队列（2重循环），首先获取**队列的长度**（q.size()），从0到队列长度循环，首先获取队头记为temp（q.front()），再弹出队头（q.pop()）。判断当前值是否**访问**过，如果访问过则continue，否则打上标记。再一个循环，依次将temp的孩子们入队。     
+**广度**：使用队列（2重循环），首先获取队头记为temp（q.front()），再弹出队头（q.pop()）。判断当前值是否**访问**过，如果访问过则continue，否则打上标记。再一个循环，依次将temp的孩子们入队。     
+
+n叉树层次遍历时，需要先获取队列的长度！   
 
 
 
+**单词接龙II**：
+
+用python可简单实现！    
+
+首先生成单词邻接表，用'*'代替某一个字符作为字典的键，相应的单词作为值。接下来准备bfs，首先初始化队列加入(beginWord, 已访问过的单词)，res存储结果，visited为单词及到beginWord的距离。只要队列不为空就循环，获取最左边的元素，如果word为endWord把结果加入到res，接下来枚举与当前单词相似的新词，若新词未被访问过或者当前词到beginWord的距离小于等于访问该词的时间：那么就把该词入队 (word, _list[:] + [child])，打上标记表示已访问（visited[child] = dist）。最终返回res。   

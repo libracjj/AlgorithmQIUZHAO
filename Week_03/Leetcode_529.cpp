@@ -30,8 +30,8 @@ public:
             for (auto dir : dirs) {
                 int newrow = row + dir[0];
                 int newcol = col + dir[1];
-                if (newrow >= 0 && newcol >= 0 && newrow < m && newcol < n 
-					&& board[newrow][newcol] == 'E') {
+                if (newrow >= 0 && newcol >= 0 && newrow < m && newcol < n && 
+					board[newrow][newcol] == 'E') {
                     vector<int> t({newrow, newcol});
                     updateBoard(board, t);
                 }
