@@ -64,7 +64,7 @@ def fastpow(a, n):
         return fastpow(a * a, n // 2)
 ```
 
-
+  
 
 **二分查找**
 
@@ -72,7 +72,7 @@ def fastpow(a, n):
 
 （寻找左侧边界）若right = nums.size()，搜索区间为[left, right)，决定了 while (left < right)，也决定了			left = **mid + 1**和  right = **mid**。    
 
-
+  
 
 **深度优先和广度优先搜索**（非递归版）  
 
@@ -84,9 +84,9 @@ C++：
 
 n叉树层次遍历时，需要先获取队列的长度！   
 
+  
 
-
-**单词接龙II**：
+**Leetcode126题单词接龙II**：
 
 用python可简单实现！    
 

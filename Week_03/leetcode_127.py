@@ -18,9 +18,9 @@ class Solution(object):
                 return length
             for i in range(len(word)):
                 for c in string.lowercase:
-                    next_word = word[:i] + c + word[i + 1:]
+                    next_word = word[:i] + c + word[i+1:]
                     if next_word in wordList:
                         #print(next_word)
-                        q.append((next_word, length + 1))
+                        q.append((next_word, length+1))
                         wordList.remove(next_word)
         return 0

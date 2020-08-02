@@ -31,6 +31,6 @@ class Solution(object):
                 _key = word[:i] + '*' + word[i+1:]
                 for child in adjList[_key]:
                     if child not in visited or dist <= visited[child]:#未访问过 或 到beginWord的距离 <= 访问该词的时间
-                        q += (child,_list[:]+[child]), #入队
+                        q += (child, _list[:]+[child]), #入队
                         visited[child] = dist
         return res
