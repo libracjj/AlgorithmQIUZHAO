@@ -1,1 +1,57 @@
-学习笔记
+# 中 等
+
+[64：最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)          *已完成*          
+
+[91：解码方法](https://leetcode-cn.com/problems/decode-ways)
+
+[最大正方形](https://leetcode-cn.com/problems/maximal-square/)
+
+[任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
+
+[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
+
+# 困 难
+
+[52：最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)          *已完成*          
+
+[编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+
+[矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
+
+[青蛙过河](https://leetcode-cn.com/problems/frog-jump/)
+
+[分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum)
+
+[学生出勤记录 II ](https://leetcode-cn.com/problems/student-attendance-record-ii/)
+
+[最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+
+[戳气球](https://leetcode-cn.com/problems/burst-balloons/)
+
+# 学习总结
+
+Leetcode62题 [不同路径](https://leetcode-cn.com/problems/unique-paths/)
+
+```C++
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
+        vector<int> dp(n);
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == 0) {
+                    dp[j] = 1;
+                }
+                if (i >= 1 && j >= 1){
+                    dp[j] += dp[j - 1];
+                }
+            }
+        }
+        return dp.back();
+    }
+};
+```
+
+Leetcode63题 [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)    
+
+首先获取行数m以及列数n，声明dp大小为n。判断obstacleGrid[0] [0]是否为0，若是则dp[0] = 1。for循环i从0到m，再一个循环j从0到n，如果obstacleGrid[i] [j]为1，那么dp[j] = 0，并开始下一次循环（continue）。如果 i - 1 >= 0 且 obstacleGrid[i - 1] [j] 为0，那么 dp[j] = dp[j] + dp[j - 1]，最后返回dp.back()
