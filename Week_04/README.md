@@ -1,10 +1,10 @@
 # 中 等
 
-[64：最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)          *已完成*          
+[64：最小路径和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_64.cpp)          *已完成*          
 
 [91：解码方法](https://leetcode-cn.com/problems/decode-ways)
 
-[最大正方形](https://leetcode-cn.com/problems/maximal-square/)
+[221：最大正方形](https://leetcode-cn.com/problems/maximal-square/)          *已完成*          
 
 [任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 
@@ -12,7 +12,7 @@
 
 # 困 难
 
-[52：最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)          *已完成*          
+[32：最长有效括号](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_32.cpp)          *已完成*          
 
 [编辑距离](https://leetcode-cn.com/problems/edit-distance/)
 
@@ -26,7 +26,7 @@
 
 [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
-[戳气球](https://leetcode-cn.com/problems/burst-balloons/)
+[312：戳气球](https://leetcode-cn.com/problems/burst-balloons/)
 
 # 学习总结
 
@@ -54,4 +54,12 @@ public:
 
 Leetcode63题 [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)    
 
-首先获取行数m以及列数n，声明dp大小为n。判断obstacleGrid[0] [0]是否为0，若是则dp[0] = 1。for循环i从0到m，再一个循环j从0到n，如果obstacleGrid[i] [j]为1，那么dp[j] = 0，并开始下一次循环（continue）。如果 i - 1 >= 0 且 obstacleGrid[i - 1] [j] 为0，那么 dp[j] = dp[j] + dp[j - 1]，最后返回dp.back()
+首先获取行数m以及列数n，声明dp大小为n。判断obstacleGrid[0] [0]是否为0，若是则dp[0] = 1。for循环i从0到m，再一个循环j从0到n，如果obstacleGrid[i] [j]为1，那么dp[j] = 0，并开始下一次循环（continue）。如果 i - 1 >= 0 且 obstacleGrid[i - 1] [j] 为0，那么 dp[j] = dp[j] + dp[j - 1]，最后返回dp.back()。
+
+Leetcode53题 [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+
+注意输入可能只有一个数且该数小于0！所以首先是sum += nums[i]，然后让ans在ans和sum中选取更大的值，最后更新sum的值是0还是sum。
+
+Leetcode221题 [最大正方形](https://leetcode-cn.com/problems/maximal-square/)
+
+dp[i] [j] 表示以（i, j）为右下角，正方形边长的最大值。对于某个位置（i, j），若值为0，则 dp[i] [j] = 0。若为1：由其上、左及左上的dp值决定。要注意边界条件：如果 i 或 j 为0，dp[i] [j]只可能为1。
