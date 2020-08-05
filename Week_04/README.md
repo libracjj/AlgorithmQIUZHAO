@@ -8,7 +8,7 @@
 
 [任务调度器](https://leetcode-cn.com/problems/task-scheduler/)
 
-[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
+[647：回文子串](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_647.cpp)          *已完成*          
 
 # 困 难
 
@@ -18,7 +18,7 @@
 
 [矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
 
-[青蛙过河](https://leetcode-cn.com/problems/frog-jump/)
+[403：青蛙过河](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_403.cpp)          *已完成*          
 
 [分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum)
 
@@ -68,3 +68,6 @@ Leetcode**312**题 [戳气球](https://leetcode-cn.com/problems/burst-balloons/)
 
 dp[i] [j]表示**开区间**（i, j）戳破所有气球后，能获得的最大硬币数。k表示（i, j）之间的一个索引，dp[i] [j]就为戳破k左边所有的气球得到的硬币（dp[i] [k]）、戳破k右边所有的气球得到的硬币（dp[k] [j]）再加上戳破k得到硬币（nums[i] * nums[k] * nums[j]）
 
+Leetcode**647**题[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
+
+dp[i] [j]表示[i, j]范围内字符是否为回文串，i 从后向前遍历，j 从 i 向后遍历。若s[i]与s[j]相等，如果满足 s[i] 与 s[j] 相邻或者中间隔着一个字符、或者满足 [i+1, j-1] 之间为回文串即 dp[i+1] [j-1] 为1那么ans += 1。
