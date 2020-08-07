@@ -6,7 +6,7 @@
 
 [221：最大正方形](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_221.cpp)          *已完成*          
 
-[621：任务调度器](https://leetcode-cn.com/problems/task-scheduler/)          *已完成*          
+[621：任务调度器](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_621.cpp)          *已完成*          
 
 [647：回文子串](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_647.cpp)          *已完成*          
 
@@ -14,7 +14,7 @@
 
 [32：最长有效括号](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_32.cpp)          *已完成*          
 
-[编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+[72：编辑距离](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_72.cpp)          *已完成*          
 
 [矩形区域不超过 K 的最大数值和](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)
 
@@ -68,6 +68,11 @@ Leetcode**312**题 [戳气球](https://leetcode-cn.com/problems/burst-balloons/)
 
 dp[i] [j]表示**开区间**（i, j）戳破所有气球后，能获得的最大硬币数。k表示（i, j）之间的一个索引，dp[i] [j]就为戳破k左边所有的气球得到的硬币（dp[i] [k]）、戳破k右边所有的气球得到的硬币（dp[k] [j]）再加上戳破k得到硬币（nums[i] * nums[k] * nums[j]）
 
-Leetcode**647**题[回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
+Leetcode**647**题 [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
 
 dp[i] [j]表示[i, j]范围内字符是否为回文串，i 从后向前遍历，j 从 i 向后遍历。若s[i]与s[j]相等，如果满足 s[i] 与 s[j] 相邻或者中间隔着一个字符、或者满足 [i+1, j-1] 之间为回文串即 dp[i+1] [j-1] 为1那么ans += 1。
+
+Leetcode**72题** [编辑距离](https://leetcode-cn.com/problems/edit-distance/)
+
+dp[i] [j] 表示s1[0..i] 和 s2[0..j] 的最小编辑距离，如果s1[i] == s2[j]则 dp[i] [j] = dp[i-1] [j-1]；否则选择插入（ dp[i] [j-1] + 1，i 插入与 s[j] 一样的字符，j 前移）、删除（dp[i-1] [j]，s[i]  删除，前移 i）及替换（s1[i] 替换成 s2[j]，i 和 j 都前移）的最小代价
+
