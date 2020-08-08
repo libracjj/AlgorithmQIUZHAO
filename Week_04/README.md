@@ -2,7 +2,7 @@
 
 [64：最小路径和](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_64.cpp)          *已完成*          
 
-[91：解码方法](https://leetcode-cn.com/problems/decode-ways)
+[91：解码方法](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_91.cpp)          *已完成*          
 
 [221：最大正方形](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_221.cpp)          *已完成*          
 
