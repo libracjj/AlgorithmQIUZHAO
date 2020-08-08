@@ -20,7 +20,7 @@
 
 [403：青蛙过河](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_403.cpp)          *已完成*          
 
-[分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum)
+[410：分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum)
 
 [552：学生出勤记录 II ](https://leetcode-cn.com/problems/student-attendance-record-ii/)
 
@@ -54,7 +54,7 @@ public:
 
 Leetcode63题 [不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)    
 
-首先获取行数m以及列数n，声明dp大小为n。判断obstacleGrid[0] [0]是否为0，若是则dp[0] = 1。for循环i从0到m，再一个循环j从0到n，如果obstacleGrid[i] [j]为1，那么dp[j] = 0，并开始下一次循环（continue）。如果 i - 1 >= 0 且 obstacleGrid[i - 1] [j] 为0，那么 dp[j] = dp[j] + dp[j - 1]，最后返回dp.back()。
+首先获取行数m以及列数n，声明dp大小为n。判断obstacleGrid[0] [0]是否为0，若是则dp[0] = 1。for循环i从0到m，再一个循环j从0到n，如果obstacleGrid[i] [j]为1，那么dp[j] = 0，并开始下一次循环（continue）。如果 j - 1 >= 0 且 obstacleGrid[i] [j - 1] 为0，那么 dp[j] = dp[j] + dp[j - 1]，最后返回dp.back()。
 
 Leetcode53题 [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
 
@@ -70,7 +70,7 @@ dp[i] [j]表示**开区间**（i, j）戳破所有气球后，能获得的最大
 
 Leetcode**647**题 [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/)
 
-dp[i] [j]表示[i, j]范围内字符是否为回文串，i 从后向前遍历，j 从 i 向后遍历。若s[i]与s[j]相等，如果满足 s[i] 与 s[j] 相邻或者中间隔着一个字符、或者满足 [i+1, j-1] 之间为回文串即 dp[i+1] [j-1] 为1那么ans += 1。
+dp[i] [j]表示[i, j]范围内字符是否为回文串，i 从后向前遍历，j 从 i 向后遍历。若s[i]与s[j]相等，如果满足 s[i] 与 s[j] 的距离小于等于2、或者满足 [i+1, j-1] 之间为回文串即 dp[i+1] [j-1] 为1那么ans += 1。
 
 Leetcode**72题** [编辑距离](https://leetcode-cn.com/problems/edit-distance/)
 
