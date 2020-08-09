@@ -1,6 +1,7 @@
 /*
 https://leetcode-cn.com/problems/minimum-window-substring/
 76. 最小覆盖子串
+https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
 */
 
 class Solution {
