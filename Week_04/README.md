@@ -20,11 +20,11 @@
 
 [403：青蛙过河](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_403.cpp)          *已完成*          
 
-[410：分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum)
+[410：分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum) **二分**
 
 [552：学生出勤记录 II ](https://leetcode-cn.com/problems/student-attendance-record-ii/)
 
-[最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+[76：最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) **滑动窗口**          *已完成*                     
 
 [312：戳气球](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_312.cpp)          *已完成*          
 
