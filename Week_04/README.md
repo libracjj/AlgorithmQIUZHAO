@@ -22,7 +22,7 @@
 
 [410：分割数组的最大值](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_410.py) **二分**                    *已完成*          
 
-[552：学生出勤记录 II ](https://leetcode-cn.com/problems/student-attendance-record-ii/)          *已完成*          
+[552：学生出勤记录 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_552.py)          *已完成*          
 
 [76：最小覆盖子串](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_04/Leetcode_76.cpp) **滑动窗口**                    *已完成*                     
 
