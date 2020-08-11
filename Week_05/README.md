@@ -32,7 +32,7 @@ DFS  和 **并查集**
 
 Leetcode **547**题 [朋友圈](https://leetcode-cn.com/problems/friend-circles)  Leetcode**200**题 [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) Leetcode**130**题 [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
 
-547题并查集在合并时，先比较（i与j不相等） x = find(i) 与 y = find(j)，如果x与y不相等，pa[x] = y。注意如果某一行数据为    [1, 1, 1]，第一次比较时p[0] = 1, p[1] = 1，第2次比较时p[1] = 2，p[2] = 1相当于 p[0] = 2（但此时p[0]为1）！故 写代码时要注意细节~
+547题并查集在合并时，先比较（i与j不相等） x = find(i) 与 y = find(j)，如果x与y不相等，pa[x] = y。注意如果某一行数据为    [1, 1, 1]，第一次比较时p[0] = 1, p[1] = 1，第2次比较时p[1] = 2，p[2] = 2。这会导致 p[0] = 2，        p[0] = 1, p[1] = 2（但此时p[0]为1）！故 写代码时要注意细节~
 
 分析“单词搜索 II”用 Tire 树实现的时间复杂度
 
