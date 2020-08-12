@@ -1,6 +1,6 @@
 # 简 单
 
-[70：爬楼梯](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_70.cpp)     
+[70：爬楼梯](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_70.cpp)                    已完成     
 [191：位 1 的个数](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_191.cpp)                    已完成   
 [231：2 的幂](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_231.cpp)                    已完成   
 [190：颠倒二进制位](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_190.cpp)                    已完成   
@@ -11,7 +11,7 @@
 [547：朋友圈](https://leetcode-cn.com/problems/friend-circles)                    已完成   
 [200：岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)  
 [130：被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)                     已完成   
-[有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/)   
+[36：有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/)                     已完成   
 [22：括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
 [127：单词接龙](https://leetcode-cn.com/problems/word-ladder/)  
 [最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)   
@@ -20,9 +20,9 @@
 # 困 难
 
 [单词搜索 II ](https://leetcode-cn.com/problems/word-search-ii/)   
-[51：N 皇后](https://leetcode-cn.com/problems/n-queens/)   
+[51：N 皇后](https://leetcode-cn.com/problems/n-queens/)                    已完成      
 [解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description)   
-[52：N 皇后 II ](https://leetcode-cn.com/problems/n-queens-ii/description/)
+[52：N 皇后 II ](https://leetcode-cn.com/problems/n-queens-ii/description/)                    已完成   
 
 # 学习总结
 
