@@ -74,7 +74,7 @@ AVL旋转操作：
 
 左右子树：左右旋；
 
-![左右旋](http://github.com/libracjj/AlgorithmQIUZHAO/raw/master/images/ZYX.png)
+![image1](https://github.com/libracjj/AlgorithmQIUZHAO/raw/master/images/ZYX.png)
 
 右左子树：与左右子树对称
 
