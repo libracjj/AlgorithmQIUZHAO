@@ -74,7 +74,7 @@ AVL旋转操作：
 
 左右子树：左右旋；
 
-![左右旋](C:\Users\CJJ\AppData\Roaming\Typora\typora-user-images\image-20200814162719915.png)
+![左右旋](http://github.com/libracjj/AlgorithmQIUZHAO/raw/master/images/左右旋.png)
 
 右左子树：与左右子树对称
 
