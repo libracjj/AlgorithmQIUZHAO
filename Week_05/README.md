@@ -7,22 +7,22 @@
 
 # 中 等
 
-[208：实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description)                    已完成   
-[547：朋友圈](https://leetcode-cn.com/problems/friend-circles)                    已完成   
-[200：岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)  
-[130：被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)                     已完成   
-[36：有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/)                     已完成   
-[22：括号生成](https://leetcode-cn.com/problems/generate-parentheses/)  
-[127：单词接龙](https://leetcode-cn.com/problems/word-ladder/) 双向BFS                       已完成   
-[433：最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/) 双向BFS                     已完成   
-[338：比特位计数](https://leetcode-cn.com/problems/counting-bits/description/)                    已完成      
+[208：实现 Trie (前缀树)](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_208.py)                    已完成   
+[547：朋友圈](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_547.cpp)                    已完成   
+[200：岛屿数量](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_200.cpp)                    已完成  
+[130：被围绕的区域](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_130.cpp)                     已完成   
+[36：有效的数独](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_36.cpp)                     已完成   
+[22：括号生成](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_22.cpp)                     已完成  
+[127：单词接龙](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_127.py)  **双向BFS**                       已完成   
+[433：最小基因变化](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_433.py)  **双向BFS**                     已完成   
+[338：比特位计数](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_338.cpp)                    已完成      
 
 # 困 难
 
-[单词搜索 II ](https://leetcode-cn.com/problems/word-search-ii/)   
-[51：N 皇后](https://leetcode-cn.com/problems/n-queens/)                    已完成      
-[37：解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description)   
-[52：N 皇后 II ](https://leetcode-cn.com/problems/n-queens-ii/description/)                    已完成   
+[212：单词搜索 II ](https://leetcode-cn.com/problems/word-search-ii/)   
+[51：N 皇后](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_51.cpp)                    已完成      
+[37：解数独](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_37.cpp)                    已完成    
+[52：N 皇后 II ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_05/Leetcode_52.cpp)                    已完成   
 
 # 学习总结
 
@@ -36,7 +36,9 @@ Leetcode **547**题 [朋友圈](https://leetcode-cn.com/problems/friend-circles)
 
 分析“单词搜索 II”用 Tire 树实现的时间复杂度
 
-总结 双向 BFS 代码模版
+
+
+总结 **双向 BFS** 代码模版
 
 python：用集合set() 替换队列deque()，两个集合：一个从前往后扩散，一个从后往前扩散。当前后相遇时，程序终止，否则视为搜索不到。刚开始从前向后搜索，每一次把所有扩散得到的节点先存储在一个临时的set中，将其赋给front。再比较此时front的节点数和back的节点数，哪一个节点数少从哪里开始搜索以此节省时间！
 
@@ -66,3 +68,14 @@ class Solution(object):
         return 0
 ```
 
+AVL旋转操作：
+
+左旋：右右子树；右旋：左左子树；
+
+左右子树：左右旋；
+
+![左右旋](C:\Users\CJJ\AppData\Roaming\Typora\typora-user-images\image-20200814162719915.png)
+
+右左子树：与左右子树对称
+
+AVL相比红黑树提供了更快的**查询**操作，因为AVL严格平衡；红黑树提供更快插入和删除操作，因为AVL旋转操作更多；AVL要存储平衡因子信息，红黑树需要的信息少只要一个bit存黑或红；读操作多写操作少选AVL，否则选红黑树。
