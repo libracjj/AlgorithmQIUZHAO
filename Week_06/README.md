@@ -1,6 +1,6 @@
 # 简 单
 
-[数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
+[1122：数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)           已完成          
 
 [242：有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)           已完成          
 
@@ -8,7 +8,7 @@
 
 [反转字符串 II ](https://leetcode-cn.com/problems/reverse-string-ii/)
 
-[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+[151：翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)           已完成          
 
 [反转字符串中的单词 III ](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
@@ -22,7 +22,7 @@
 
 [146：LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/#/)
 
-[合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+[56：合并区间](https://leetcode-cn.com/problems/merge-intervals/)           已完成          
 
 [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
@@ -32,13 +32,13 @@
 
 [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
 
-[最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+[5：最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 
 # 困 难
 
-[翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+[493：翻转对](https://leetcode-cn.com/problems/reverse-pairs/)           已完成          
 
-[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)
+[32：最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)           已完成          
 
 [赛车](https://leetcode-cn.com/problems/race-car/)
 
@@ -48,7 +48,9 @@
 
 # 学习总结
 
-布隆过滤器：如果一个元素所对应的二进制位有一个不为1，说明该元素不在布隆过滤器的索引里。当布隆过滤器把所有元素都插入完成，当一个测试元素所对应的二进制位都为1，该元素**可能**存在于布隆过滤器中。
+布隆过滤器：如果一个元素所对应的二进制位有一个不为1，说明该元素不在布隆过滤器的索引里。当布隆过滤器把所有元素都插入完成，当一个测试元素所对应的二进制位都为1，该元素**可能**存在于布隆过滤器中。   
+
+
 
 选择排序：在未排序序列中找到最小（大）元素，存放到排序序列中
 
@@ -69,7 +71,7 @@ void selection_sort(vector<T>& arr) {
 
 ```c++
 template<typename T>
-void insertion_sort(vector<T> &arr) {
+void insertion_sort(vector<T>& arr) {
     for (int i = 1; i < arr.size(); i++) {
         int key = arr[i];
         int j = i - 1;
@@ -86,7 +88,7 @@ void insertion_sort(vector<T> &arr) {
 
 ```c++
 template<typename T>
-void bubble_sort(vector<T> &arr) {
+void bubble_sort(vector<T>& arr) {
     int len = arr.size();
     for (int i = 0; i < len - 1; i++) {
         for (int j = 0; j < len - 1 - i; j++) {
@@ -97,3 +99,6 @@ void bubble_sort(vector<T> &arr) {
 }
 ```
 
+[不同路径 2 ](https://leetcode-cn.com/problems/unique-paths-ii/) 状态转移方程
+
+f(x, y) = f(x - 1, y) + f(x, y - 1)
