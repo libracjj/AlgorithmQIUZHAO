@@ -1,14 +1,14 @@
 # 简 单
 
-[1122：数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)           已完成          
+[1122：数组的相对排序](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_1122.cpp)           已完成          
 
-[242：有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)           已完成          
+[242：有效的字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_242.cpp)           已完成          
 
-[字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)           已完成          
+[387：字符串中的第一个唯一字符](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_387.cpp)           已完成          
 
-[反转字符串 II ](https://leetcode-cn.com/problems/reverse-string-ii/)
+[541：反转字符串 II ](https://leetcode-cn.com/problems/reverse-string-ii/)           已完成          
 
-[151：翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)           已完成          
+[151：翻转字符串里的单词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_151.py)           已完成          
 
 [反转字符串中的单词 III ](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
@@ -16,29 +16,29 @@
 
 [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)
 
-[验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)
+[680：验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)           已完成          
 
 # 中 等
 
 [146：LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/#/)
 
-[56：合并区间](https://leetcode-cn.com/problems/merge-intervals/)           已完成          
+[56：合并区间](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_56.cpp)           已完成          
 
 [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
-[解码方法](https://leetcode-cn.com/problems/decode-ways/)
+[91：解码方法](https://leetcode-cn.com/problems/decode-ways/)
 
-[字符串转换整数 (atoi) ](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+[8：字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)           已完成          
 
-[找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)
+[438：找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)           已完成          
 
 [5：最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 
 # 困 难
 
-[493：翻转对](https://leetcode-cn.com/problems/reverse-pairs/)           已完成          
+[493：翻转对](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_493.cpp)           已完成          
 
-[32：最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)           已完成          
+[32：最长有效括号](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_32.cpp)           已完成          
 
 [赛车](https://leetcode-cn.com/problems/race-car/)
 
@@ -101,4 +101,10 @@ void bubble_sort(vector<T>& arr) {
 
 [不同路径 2 ](https://leetcode-cn.com/problems/unique-paths-ii/) 状态转移方程
 
-f(x, y) = f(x - 1, y) + f(x, y - 1)
+x >= 1 且 y >= 1：f(x, y) = f(x - 1, y) + f(x, y - 1)
+
+x = 0 且 y = 0：f(x, y) = 1（无障碍物）
+
+x = 0：f(x, y) = f(x, y - 1)
+
+y = 0：f(x, y) = f(x - 1, y)
