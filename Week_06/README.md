@@ -10,11 +10,11 @@
 
 [151：翻转字符串里的单词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_151.py)           *已完成*          
 
-[557：反转字符串中的单词 III ](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
+[557：反转字符串中的单词 III ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_557.py)           *已完成*          
 
-[917：仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/)
+[917：仅仅反转字母](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_917.cpp)           *已完成*          
 
-[205：同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)
+[205：同构字符串](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_205.py)           *已完成*          
 
 [680：验证回文字符串 Ⅱ](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_680.cpp)           *已完成*          
 
@@ -24,15 +24,15 @@
 
 [56：合并区间](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_56.cpp)           *已完成*          
 
-[最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+[300：最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)           *已完成*          
 
-[91：解码方法](https://leetcode-cn.com/problems/decode-ways/)
+[91：解码方法](https://leetcode-cn.com/problems/decode-ways/)           *已完成*          
 
 [8：字符串转换整数 (atoi)](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_8.cpp)           *已完成*          
 
 [438：找到字符串中所有字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_438.cpp)           *已完成*          
 
-[5：最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+[5：最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)           *已完成*          
 
 # 困 难
 
@@ -44,7 +44,7 @@
 
 [通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
 
-[不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)
+[115：不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)           *已完成*          
 
 # 学习总结
 
