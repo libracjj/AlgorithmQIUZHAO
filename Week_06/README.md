@@ -20,19 +20,19 @@
 
 # 中 等
 
-[146：LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/#/)
+[146：LRU 缓存机制](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_146.py)           *已完成*          
 
 [56：合并区间](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_56.cpp)           *已完成*          
 
-[300：最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)           *已完成*          
+[300：最长上升子序列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_300.cpp)           *已完成*          
 
-[91：解码方法](https://leetcode-cn.com/problems/decode-ways/)           *已完成*          
+[91：解码方法](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_91.cpp)           *已完成*          
 
 [8：字符串转换整数 (atoi)](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_8.cpp)           *已完成*          
 
 [438：找到字符串中所有字母异位词](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_438.cpp)           *已完成*          
 
-[5：最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)           *已完成*          
+[5：最长回文子串](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_5.cpp)           *已完成*          
 
 # 困 难
 
@@ -40,11 +40,11 @@
 
 [32：最长有效括号](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_32.cpp)           *已完成*          
 
-[赛车](https://leetcode-cn.com/problems/race-car/)
+[818：赛车](https://leetcode-cn.com/problems/race-car/)
 
-[通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
+[44：通配符匹配](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_44.cpp)           *已完成*          
 
-[115：不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)           *已完成*          
+[115：不同的子序列](https://github.com/libracjj/AlgorithmQIUZHAO/blob/master/Week_06/Leetcode_115.cpp)           *已完成*          
 
 # 学习总结
 
